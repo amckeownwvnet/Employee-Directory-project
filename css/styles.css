@@ -1,5 +1,8 @@
 body {
     position: relative;
+    margin: auto;
+    background-color: #fcfcfc;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
 .overlay {
@@ -35,5 +38,42 @@ body {
 
 .grid-container{
     display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+    grid-template-rows: repeat(4, auto); /* 4 rows with automatic height */
+    gap: 10px; /* gap between grid items */
+    line-height:70%;
+    margin-top: -1%;
+    width: 80%;
+    margin: auto;
     
+}
+
+.card{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 2px solid #dfdfdf;
+    width:75%;
+    padding: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.avatar {
+ border-radius: 50%;
+}
+
+.name {
+    color: #404a51;
+    padding-bottom: 5px;
+}
+
+.address, .email {
+    color:#9ea3a6;
+}
+
+h1{
+    color: #4a4a4a;
 }
