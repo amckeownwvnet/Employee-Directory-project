@@ -66,7 +66,6 @@ body {
 }
 
 .name {
-    color: #404a51;
     padding-bottom: 5px;
 }
 
@@ -77,4 +76,12 @@ body {
 h1{
     color: #4a4a4a;
     margin: 0%;
+}
+
+h2 {
+    color: #404a51;
+}
+
+p {
+    color:#9ea3a6;
 }
