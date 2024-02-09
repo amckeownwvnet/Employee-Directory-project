@@ -55,7 +55,6 @@ body {
     background-color: #ffffff;
     border-radius: 5px;
     border: 2px solid #dfdfdf;
-    width:75%;
     padding: 20px;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -63,6 +62,7 @@ body {
 
 .avatar {
  border-radius: 50%;
+ padding-right: 5px;
 }
 
 .name {
